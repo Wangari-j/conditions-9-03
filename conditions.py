@@ -1,8 +1,8 @@
 def div3(num):
-    if num / 3:
-        return("True")
+    if num % 3 == 0:
+        return True
     else:
-        return("False")
+        return False
     
 print(div3(6))
 print(div3(22))
